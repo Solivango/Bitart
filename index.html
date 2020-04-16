@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bitart</title>
+    <link rel="icon" href="iconos/favicon.png">
+    <link rel="stylesheet" href="css_home/menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="css_home/slider.css"> 
+    <link rel="stylesheet" href="css_home/contenido.css">
+    <link rel="stylesheet"  href="css_home/footer.css">
+</head>
+<body>
+
+<header class="iconobitart">
+<img class="img_logo" src="iconos/iconobitart.png" alt="logobiart" >
+</header>
+
+<header class="main_header">
+
+    <input type="checkbox" id="boton_menu">
+    <!-- es la etiqueta que mejora la accesibilidad del usuario-->
+    <label class="icono_menu" for=""boton_menu>
+    <img src="iconos/iconomenu.png" alt="iconomenu" width="35px" height="35px">
+    </label>
+
+    <nav class="menu">
+    <ul>
+   <li><a href="index.html">inicio</a></li>
+    <li><a href="">Obras</a></li>
+   
+    </ul>
+
+    <div class="dropdown">
+   <button class="dropbtn">more</button>
+    <div class="dropdown-content">
+        <a href="#seccion1">sección 1</a>
+       <a href="#seccion2">sección 2</a>
+       <a href="#seccion3">sección 3</a>
+       <a href="#info">info</a>
+</div>
+</div>
+</nav>
+
+    
+
+</header>
+
+<section>
+
+<article>
+
+<ul class="slider-portada"> 
+<li>
+    <input type="radio" id="sbutton1" name="sradio" checked>
+    <label for="sbutton1"></label>
+
+    <img src="imageneshome/obra1.jpg" alt="obra1">
+</li>
+
+<li>
+    <input type="radio" id="sbutton2" name="sradio">
+    <label for="sbutton2"></label>
+
+    <img src="imageneshome/obra2.jpg" alt="obra2">
+
+</li>
+
+<li>
+
+    <input type="radio" id="sbutton3" name="sradio">
+    <label for="sbutton3"></label>
+
+    <img src="imageneshome/obra3.jpg" alt="obra3">
+
+</li>
+
+<li>
+
+    <input type="radio" id="sbutton4" name="sradio">
+    <label for="sbutton4"></label>
+
+    <img src="imageneshome/obra4.jpg" alt="obra4">
+
+</li>
+
+</ul>
+
+</article>
+
+</section>
+
+<article id="seccion1" class="bloquetitulo">
+
+<h1>Bienvenidos a bitart</h1>
+
+    <section class="parrafotitulo">
+
+        <p>
+        En BITART estamos convecidos de que el arte debe<br>
+        
+        formar parte de la vida de todos, por eso es una plataforma<br>
+        
+        para aficionados al arte y así mismo para ti. Conoce<br>
+        
+        obras de arte famosas y los pintores más destacados del mundo<br>
+        
+         </p>
+
+        <div  class="iconoart">
+
+            <img src="iconos/milo-venus.png" alt="iconobloque">
+
+        </div>
+    
+    </section>
+
+</article>
+
+
+<article id="seccion2" class="bloquetitulo2">
+
+    <h2> Pintores Destacados de la Historia</h2>
+
+    <section class="parrafotitulo2">
+      <hr width="600px" color="salmon">
+       
+      <p>
+       Cuando el arte es un placer las personas <br>
+       que las personas disfrutan ya que refleja lo mejor <br>
+       de cada quien como sentimientos y ezperenza<br> <span style="color: salmon;">click</span> en el video.
+      </p>
+    </section>
+
+    <section class="videopintores">
+         <video src="" width="510px" height="400px" controls></video>
+    
+    </section>
+</article>
+
+<figure id="seccion3" class="fotografia">
+    <img src="imageneshome/bobross.jpg" alt="bobross" class="fotobob">
+
+     <i>
+         <q> No cometemos errores. Simplemente tenemos accidentes
+             felices.
+         </q>
+
+         <p>-Bob Ross</p>
+
+     </i>
+</figure>
+
+
+<footer id="info">
+    <section class="partefooter">
+        <h3 class="titulomapa">
+            También puedes ubicarnos y contactarnos :
+        </h3>
+
+        <div class="contenidof">
+
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7313830556104!2d-74.06719788573693!3d4.6419329434580465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9abf01007c8b%3A0xf34837fe0c5507db!2sBIT%20-%20Cursos%20de%20Programaci%C3%B3n%20en%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1585845399614!5m2!1ses!2sco" 
+            width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" 
+            tabindex="0">
+        </iframe>
+
+        <form action="">
+
+            <h3>
+                  Contacto
+            </h3>
+
+            <input type="text" name="nombre" placeholder="nombre"
+            maxlength="35"
+            > 
+            <input type="email" name="correo" placeholder="email">
+            <input type="tel" name="telefono" placeholder="telefono">
+            <textarea name="mensaje" id="textarea" placeholder="Escriba aqui su mensaje">
+            </textarea>
+
+
+            <label for="textarea"></label>
+            <input type="submit" id="boton" value="enviar">
+
+
+</form>
+        </div>
+    </section>
+
+<div class="contenidoiconos">
+
+<hr width="85%" color="salmon">
+
+<div class="iconosredes">
+
+    <a href="https://twitter.com/bit_institute" target="_blank">
+        <img src="iconos/twitter.png" alt="iconotwitter">
+        </a>
+
+        <a href="https://www.facebook.com/BogotaInstituteOfTechnology/" 
+        target="_blank" >
+        <img src="iconos/facebook.png" alt="iconofacebook">
+        </a>
+
+        <a href="https://www.instagram.com/bit_institute/" 
+        target="_blank" >
+        <img src="iconos/instagram.png" alt="">
+        </a>
+    
+
+</div>
+
+<div class="copyright">
+
+ <p> Copyright Todos los Derechos Reservados</p>
+
+</div>
+
+</div>
+
+</footer>
+    
+</body>
+</html>
